@@ -23,9 +23,8 @@ PURPOSE: This will install the following on AWS:
 - AWS provider - latest
 - VPC module - latest
 
-
-## Commands used in the Course
-
+_____________________________________________________________________________
+## Commands used:
 ### initialize
 
     terraform init
