@@ -35,7 +35,7 @@ _____________________________________________________________________________
 
 ### apply configuration with variables
 
-    terraform apply -var-file terraform-dev.tfvars
+    terraform apply -var-file terraform.tfvars
 
 ### destroy a single resource
 
@@ -55,7 +55,7 @@ _____________________________________________________________________________
 
 ### set avail_zone as custom tf environment variable - before apply
 
-    export TF_VAR_avail_zone="eu-west-3a"
+    export TF_VAR_avail_zone="us-west-1"
 
 
 ## More Information: AWS Services and components we use or create with Terraform
