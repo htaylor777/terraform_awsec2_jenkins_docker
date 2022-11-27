@@ -28,20 +28,20 @@ _____________________________________________________________________________
 Set up /etc/ansible/ansible.cfg
 
 [defaults]
--enable_plugins = aws_ec2
--host_key_checking = False
--pipelining = True
--remote_user = ec2-user
--private_key_file=/<Your LocalPATH>/.ssh/id_rsa
+- enable_plugins = aws_ec2
+- host_key_checking = False
+- pipelining = True
+- remote_user = ec2-user
+- private_key_file=/<Your LocalPATH>/.ssh/id_rsa
 
 -----------------------------------------------------------------------------
 Set up /etc/ansible/hosts
 
 [host]
--all 
--ansible_user=ec2-user 
--ansible_ssh_private_key_file=/<Your LocalPATH>/.ssh/id_rsa 
--ansible_connection=ssh
+- all 
+- ansible_user=ec2-user 
+- ansible_ssh_private_key_file=/<Your LocalPATH>/.ssh/id_rsa 
+- ansible_connection=ssh
 
 -----------------------------------------------------------------------------
 
