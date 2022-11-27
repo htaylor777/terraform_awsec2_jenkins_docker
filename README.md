@@ -1,5 +1,5 @@
 This infrastructure code is orchestrated by terraform. 
-PURPOSE: This will installs on AWS 
+PURPOSE: This will install the following on AWS: 
 - VPC's, 
 - All required Subnets 
 - Public IPv4 DNS 
@@ -19,9 +19,9 @@ PURPOSE: This will installs on AWS
 - routing tables - automatic from AWS
   
 ## Versions used 
-- Terraform - 1.1.6
-- AWS provider - 4.2.0
-- VPC module - 3.12.0
+- Terraform - 1.3.4
+- AWS provider - latest
+- VPC module - latest
 
 
 ## Commands used in the Course
