@@ -16,7 +16,7 @@ PURPOSE: This will install the following on AWS:
 -  with Outbound rules:
 -     ALL Ports and Addresses accesses 
 -  dev-sgroup
-- routing tables - automatic from AWS
+- routing tables
   
 ## Versions used 
 - Terraform - 1.3.4
